@@ -1,6 +1,6 @@
 {
   "name": "require-short",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provide a short module path require solution for a node app",
   "main": "index.js",
   "scripts": {
