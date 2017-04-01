@@ -53,7 +53,11 @@ function $require (app_inner_module) {
     }
 
     if (app_inner_module.charAt (0) !== global.__$AppRequireStartSymbol) {
-        return require (app_inner_module)
+        try {
+            return require (app_inner_module)
+        } catch (ex) {
+            return require (path.resolve (app_inner_module))
+        }
     }
 
     var app_inner_module_path = __getAppRequireModulePath (app_inner_module)
