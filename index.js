@@ -13,7 +13,7 @@ if (global.$require) {
     global.$require = $require
 }
 
-// 设置appRequire使用的模块的开始符号，默认为'@'
+// set start symbol,default '@'
 function setAppRequireModuleStartSymbol (start_symbol) {
     global.__$AppRequireStartSymbol = start_symbol || '@'
 }
@@ -46,7 +46,7 @@ function registerRequireShortPath (register_path) {
 
 registerRequireShortPath.startSymbol = setAppRequireModuleStartSymbol
 
-// 用于app架构的require函数
+// require short function
 function $require (app_inner_module) {
     if (!_.isString (app_inner_module)) {
         return
