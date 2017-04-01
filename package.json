@@ -1,0 +1,26 @@
+{
+  "name": "require-short",
+  "version": "1.0.0",
+  "description": "provide a short module path require solution for a node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toobull/require-short.git"
+  },
+  "keywords": [
+    "require",
+    "short",
+    "module",
+    "node",
+    "app"
+  ],
+  "author": "jser.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toobull/require-short/issues"
+  },
+  "homepage": "https://github.com/toobull/require-short#readme"
+}
